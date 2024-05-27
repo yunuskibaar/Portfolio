@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    padding: 0;
+    text-align: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+    border: 1px solid transparent;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: #148d8d 0 0 5px 1px, #148d8d 0 0 1px;
+    flex-wrap: wrap;
+}
+
+.header ul li {
+    display: inline-block; 
+    margin: 15px;
+    cursor: pointer;
+    color: #999;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.header ul li a {
+    position: relative;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 10px;
+}
+
+@media screen and (max-width:768px){
+    
+}
+
+.router-link {
+    text-decoration: none;
+    color: #999;
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+#body-container {
+    padding-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 5%; 
+    padding-right: 5%; 
+}
+
+.Profil {
+    border-radius: 50%;
+    box-shadow: #148d8d 0 0 5px 1px, #148d8d 0 0 1px;
+    width: 55%; 
+    max-width: 200px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.me {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.name {
+    margin-bottom: 10px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.data-text {
+    font-size: 30px;
+    color: #148d8d; 
+    -webkit-text-stroke: none; 
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.proverb {
+    display: block;
+    padding-top: 55px;
+    color: #999;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 1px;
+    transition: .2s;
+}
+
+.content-container:hover {
+    transform: scale(1.1);
+}
+
+.code-text {
+    border: 1px solid gray;
+    width: 280px;
+    padding: 8px;
+    background-color: #f1f1f1;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+    .header ul {
+        flex-direction: column;
+    }
+
+    #body-container {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+        justify-content: center;
+        position: relative;
+        padding-left: 5%; 
+        padding-right: 5%; 
+    }
+
+    .me {
+        margin-left: 0;
+    }
+}
+
+.span-button {
+    color: #22863a;
+}
+
+.span-button2 {
+    color: #22863a;
+}
+
+.span-class {
+    color: #005cc5;
+}
+
+.span-style {
+    color: #032f62;
+}
+
+.span-down {
+    float: left;
+    margin-left: 15px;
+}
+
+.content {
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.animated-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #148d8d;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(45deg, #FFC837, #148d8d, #ff6f61, #FFC837); 
+    background-size: 400% 400%;
+    animation: wave 5s infinite;
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.footer-text {
+    border: 1px solid transparent;
+    display: inline;
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: #148d8d 0 0 5px 1px, #148d8d 0 0 1px;
+    color: #999;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}

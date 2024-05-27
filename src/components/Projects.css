@@ -1,0 +1,47 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 1200px; /* istediğiniz maksimum genişlik */
+    height: auto; /* ya da sabit bir yükseklik belirleyebilirsiniz */
+    background-color: rgba(0, 0, 0, 0.8); /* Gri arka plan rengi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border-radius: 8px;
+  }
+  
+  .mySwiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .modal {
+      width: 90%;
+      max-width: 90%;
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .modal {
+      width: 95%;
+      max-width: 95%;
+      height: auto;
+    }
+  }
+  
