@@ -2,13 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
 }
 
+=======
+    
+}
+>>>>>>> ceb17002390be2d7952e5b6a300acb1e4056501a
 .container {
     display: flex;
     padding: 0;
     text-align: center;
     flex-direction: column;
+<<<<<<< HEAD
 }
 
 .header {
@@ -16,6 +22,18 @@
     justify-content: center;
     text-align: center;
     padding-top: 25px;
+=======
+ 
+}
+
+
+
+.header {
+    display: inline;
+    text-align: center; 
+    padding-top: 25px;
+    
+>>>>>>> ceb17002390be2d7952e5b6a300acb1e4056501a
 }
 
 .header ul {
@@ -25,11 +43,18 @@
     text-align: center;
     border: 1px solid transparent;
     z-index: 999;
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
     border-radius: 30px;
     box-shadow: #148d8d 0 0 5px 1px, #148d8d 0 0 1px;
     flex-wrap: wrap;
+=======
+    display: inline-block;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: #148d8d 0 0 5px 1px, #148d8d 0 0 1px;
+>>>>>>> ceb17002390be2d7952e5b6a300acb1e4056501a
 }
 
 .header ul li {
@@ -37,11 +62,16 @@
     margin: 15px;
     cursor: pointer;
     color: #999;
+<<<<<<< HEAD
+=======
+   
+>>>>>>> ceb17002390be2d7952e5b6a300acb1e4056501a
     text-align: -webkit-match-parent;
     unicode-bidi: isolate;
 }
 
 .header ul li a {
+<<<<<<< HEAD
     position: relative;
     width: fit-content;
     display: flex;
@@ -57,6 +87,19 @@
 .router-link {
     text-decoration: none;
     color: #999;
+=======
+   position: relative;
+   width: fit-content;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1px 10px ;
+}
+
+.router-link{
+    text-decoration: none;
+    color:#999;
+>>>>>>> ceb17002390be2d7952e5b6a300acb1e4056501a
     font-family: "Fira Sans", sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -66,12 +109,17 @@
     padding-top: 90px;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
+=======
+   
+>>>>>>> ceb17002390be2d7952e5b6a300acb1e4056501a
     justify-content: center;
     position: relative;
     padding-left: 5%; 
     padding-right: 5%; 
 }
 
+<<<<<<< HEAD
 .Profil {
     border-radius: 50%;
     box-shadow: #148d8d 0 0 5px 1px, #148d8d 0 0 1px;
@@ -80,6 +128,20 @@
     height: auto; 
     margin-right: 20px; 
 }
+=======
+
+    .Profil {
+        border-radius: 50%;
+        box-shadow: #148d8d 0 0 5px 1px, #148d8d 0 0 1px;
+        width: 55%; 
+        max-width: 200px; 
+        height: auto; 
+        margin-right: 20px; 
+        
+    }
+    
+
+>>>>>>> ceb17002390be2d7952e5b6a300acb1e4056501a
 
 .me {
     text-align: center;
@@ -100,9 +162,16 @@
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
+<<<<<<< HEAD
 }
 
 .proverb {
+=======
+
+}
+
+.proverb{
+>>>>>>> ceb17002390be2d7952e5b6a300acb1e4056501a
     display: block;
     padding-top: 55px;
     color: #999;
@@ -110,8 +179,12 @@
     font-weight: 300;
     font-style: italic;
 }
+<<<<<<< HEAD
 
 .content-container {
+=======
+.content-container{
+>>>>>>> ceb17002390be2d7952e5b6a300acb1e4056501a
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -123,6 +196,7 @@
     letter-spacing: 1px;
     transition: .2s;
 }
+<<<<<<< HEAD
 
 .content-container:hover {
     transform: scale(1.1);
@@ -133,11 +207,23 @@
     width: 280px;
     padding: 8px;
     background-color: #f1f1f1;
+=======
+.content-container:hover{
+    transform: scale(1.1);
+}
+
+.code-text{
+    border:1px solid gray;
+    width: 280px;
+    padding: 8px;
+    background-color:#f1f1f1;
+>>>>>>> ceb17002390be2d7952e5b6a300acb1e4056501a
     overflow: auto;
     border-radius: 10px;
 }
 
 @media (max-width: 768px) {
+<<<<<<< HEAD
     .header {
         flex-direction: column;
         align-items: center;
@@ -182,14 +268,45 @@
 }
 
 .span-down {
+=======
+   
+    .content-container{
+       justify-content: center;
+  }
+}
+.span-button{
+    color:#22863a;
+}
+.span-button2{
+    color:#22863a;
+}
+.span-class{
+    color:#005cc5;
+}
+
+.span-style{
+    color:#032f62;
+
+}
+.span-down{
+>>>>>>> ceb17002390be2d7952e5b6a300acb1e4056501a
     float: left;
     margin-left: 15px;
 }
 
+<<<<<<< HEAD
 .content {
     justify-content: center;
     text-align: center;
     padding-top: 25px;
+=======
+.content{
+    
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+
+>>>>>>> ceb17002390be2d7952e5b6a300acb1e4056501a
 }
 
 .animated-button {
@@ -207,6 +324,7 @@
     background: linear-gradient(45deg, #FFC837, #148d8d, #ff6f61, #FFC837); 
     background-size: 400% 400%;
     animation: wave 5s infinite;
+<<<<<<< HEAD
 }
 
 .footer {
@@ -217,12 +335,58 @@
 
 .footer-text {
     border: 1px solid transparent;
+=======
+  }
+  
+
+  
+  
+  
+  
+  
+
+@media (max-width: 768px) {
+    #body-container {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+       
+        justify-content: center;
+        position: relative;
+        padding-left: 5%; 
+        padding-right: 5%; 
+        
+    }
+    .me{
+        margin-left: 0px;
+    }
+  }
+
+.footer{
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+  
+}
+.footer-text{
+    border:1px solid transparent;
+>>>>>>> ceb17002390be2d7952e5b6a300acb1e4056501a
     display: inline;
     border-radius: 30px;
     padding: 15px;
     box-shadow: #148d8d 0 0 5px 1px, #148d8d 0 0 1px;
+<<<<<<< HEAD
     color: #999;
     font-family: "Fira Sans", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
+=======
+    color:#999;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+>>>>>>> ceb17002390be2d7952e5b6a300acb1e4056501a
